@@ -1,0 +1,15 @@
+.mdl-layout--fixed-header .mdl-layout__header-row {
+	text-align: center;
+	margin: 0px auto;
+	padding-left: 48px;
+	padding-right: 48px;
+}
+.mdl-layout--fixed-header  .mdl-layout__header, .mdl-layout-title, #headerBar i {
+	color: #DC142D;
+}
+
+.mdl-layout--fixed-header  .mdl-layout__header, .mdl-layout-title {
+	background-color: white;
+	font-weight: 900;
+	box-shadow: none;
+}
