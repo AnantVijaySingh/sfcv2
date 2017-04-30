@@ -16,31 +16,22 @@ function handleTermsClick() {
 	outerDiv.setAttribute("id","popupMessageId");
 	outerDiv.setAttribute("class","popupMessage");
 
-	// innerPara.innerHTML = "Testing Overlay Module"
-
-	// var client = new XMLHttpRequest();
-	// client.open('GET', 'content/TandC.txt');
-	// client.onreadystatechange = function() {
- //  		alert(client.responseText);
-	// }
-	// client.send();
-
 	var termsAndConditionsFile = "content/TandC.txt"
 
-    var rawFile = new XMLHttpRequest();
-    rawFile.open("GET", termsAndConditionsFile, false);
-    rawFile.onreadystatechange = function ()
+    var textFile = new XMLHttpRequest();
+    textFile.open("GET", termsAndConditionsFile, false);
+    textFile.onreadystatechange = function ()
     {
-        if(rawFile.readyState === 4)
+        if(textFile.readyState === 4)
         {
-            if(rawFile.status === 200 || rawFile.status == 0)
+            if(textFile.status === 200 || textFile.status == 0)
             {
-                var allText = rawFile.responseText;
+                var allText = textFile.responseText;
                 innerPara.innerText = allText 
             }
         }
     }
-    rawFile.send(null);
+    textFile.send(null);
 
 	outerDiv.appendChild(innerPara);
 	contentBox.appendChild(outerDiv);
