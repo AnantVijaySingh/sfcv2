@@ -1,3 +1,11 @@
+
+@media (min-width: 1024px) {
+	#headerBar {
+		min-height: 72px;
+		padding: 5px 0px 5px 0px;
+	}
+}
+
 .mdl-layout--fixed-header .mdl-layout__header-row {
 	text-align: center;
 	margin: 0px auto;
@@ -5,7 +13,7 @@
 	padding-right: 48px;
 }
 .mdl-layout--fixed-header  .mdl-layout__header, .mdl-layout-title, #headerBar i {
-	color: #DC142D;
+	color: #C60646;
 }
 
 .mdl-layout--fixed-header  .mdl-layout__header, .mdl-layout-title {
@@ -15,7 +23,12 @@
 }
 
 #navigationBar {
-	padding: 0px 0px 0px 0px;
+	background-color: #C60646;
+	color: #F7F8FF;
+}
+
+#navigationBar .mdl-grid{
+/*	padding: 7px 0px 7px 0px;*/
 /*	border-top: 2px;
 	border-bottom: 2px;
 	border-left: 0px;
@@ -25,14 +38,24 @@
 }
 
 #navigationBar .navigationButton {
-	padding: 2px;
+
 	margin-top: 0px;
 	margin-bottom: 0px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 }
 
-#navigationBar .navigationButton:hover {
-	background-color: #0034A3;
+#navigationBar .navigationButton div {
+	padding: 5px;
+}
+
+#navigationBar .navigationButton a {
 	color: #F7F8FF;
+	text-decoration: none;
+}
+
+
+#navigationBar .navigationButton div:hover {
+	color: #C60646;
+	background-color: #F7F8FF;
 }
