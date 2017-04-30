@@ -9,6 +9,7 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <script type="text/javascript" src="javascript/material.js" ></script>
+  <script type="text/javascript" src="javascript/sfc.js" ></script>
 </head>
 <body>
     <!-- Always shows a header, even in smaller screens. -->
@@ -30,7 +31,7 @@
       </nav>
     </div>
     <main class="mdl-layout__content">
-      <div class="page-content"><!-- Your content goes here -->
+      <div class="page-content" id="contentBox"><!-- Your content goes here -->
         <div id="navigationBar">
           <div class="mdl-grid mdl-grid--no-spacing mdl-layout--large-screen-only" style="text-align: center" >
             <div class="mdl-cell mdl-cell--3-col navigationButton"><a href="index.html"><div>HOME</div></a></div>
@@ -48,7 +49,7 @@
               Storm Football Club was established in June 2012 in Faridabad by Aditya Chopra, Anant Vijay Singh, Jatin Chopra, Kabir Nagpal and Suvansh Chhibber.
             </p>
             <p>
-              The foundation of the club is laid on the goal to help football growth in India at grassroot level. We believe in fair play and pride ourselves on helping our players develop on and off the pitch into valuable members of the society.
+              The foundation of the club is laid on the goal to help grassroot level football in India. We believe in fair play and pride ourselves on helping our players develop on and off the pitch into valuable members of the society.
             </p>
             <p>
               We place teamwork above everything. This is embodied in our philosophy &quot;For the other ten men&quot;. We play for the rest of us.
@@ -89,9 +90,8 @@
           More Information
         </div>
         <ul class="mdl-mini-footer__link-list">
-          <li><a href="#">Help</a></li>
-          <li><a href="#">Privacy and Terms</a></li>
-          <li><a href="#">User Agreement</a></li>
+          <li><a href="#" id="terms">Privacy and Terms</a></li>
+          <li><a href="#" id="terms">User Agreement</a></li>
         </ul>
       </div>
       <div class="mdl-mini-footer__right-section">
