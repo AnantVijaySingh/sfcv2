@@ -59,3 +59,19 @@
 	color: #C60646;
 	background-color: #F7F8FF;
 }
+
+#mainContent p {
+	text-align: justify;
+}
+
+.contactInfo {
+	text-align: center;
+}
+
+.contactInfo button {
+	width: 150px;
+}
+
+.contactInfo .mdl-button--accent{
+	background-color: #0081F2;
+}

@@ -4002,12 +4002,12 @@ input.mdl-button[type="submit"] {
     background-color: rgb(63,81,181); }
 
 .mdl-button--accent.mdl-button--accent {
-  color: rgb(255,64,129); }
+  color: rgb(0,129,242); }
   .mdl-button--accent.mdl-button--accent .mdl-ripple {
     background: rgb(255,255,255); }
   .mdl-button--accent.mdl-button--accent.mdl-button--raised, .mdl-button--accent.mdl-button--accent.mdl-button--fab {
     color: rgb(255,255,255);
-    background-color: rgb(255,64,129); }
+    background-color: rgb(0,129,242); }
 
 .mdl-button[disabled][disabled], .mdl-button.mdl-button--disabled.mdl-button--disabled {
   color: rgba(0,0,0, 0.26);
