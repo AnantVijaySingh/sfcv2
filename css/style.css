@@ -76,7 +76,7 @@
 	background-color: #0081F2;
 }
 
-.popupMessage {
+.popupMessage, .joinTeamPopup {
 	position: absolute;
 	width: 300px;
 	height: 200px;
@@ -85,12 +85,12 @@
 	margin: -100px 0 0 -150px;
 	z-index: 10;
 	text-align: center;
-	background-color: #00C1A5;
+	background-color: #F1F1F5;
 	padding-top: 5px;
 	overflow: auto;
 }
 
-.popupMessage p {
+.popupMessage p, .joinTeamPopup p {
 	font-family: 'Roboto', sans-serif;
 	padding-top: 2px;
 }
@@ -100,4 +100,9 @@
 	top:85%;
 	left:50%;
 	margin: -18px 0 0 -32px;
+}
+
+.logos, .joinTeamPopup .logos {
+	height: 48px;
+	width: 48px;
 }
