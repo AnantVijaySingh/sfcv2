@@ -1,14 +1,17 @@
 var terms
 var contentBox
+var playMatchButton
 
 window.onload = function() {
 	terms = document.getElementById('terms');
 	contentBox  = document.getElementById('contentBox');
+	playMatchButton = document.getELementById('playMatch');
 
 	terms.onclick = handleTermsClick;
 }
 
 // Test function to work within same-orgin security policies
+// add focus property
 function handleTermsClick() {
 
 	var outerDiv = document.createElement("div");
