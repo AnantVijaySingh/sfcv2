@@ -2,6 +2,7 @@ var terms
 var contentBox
 var playMatchButton
 var joinTeamButton
+var focusOutBox
 
 window.onload = function() {
 	terms = document.getElementById('terms');
@@ -26,7 +27,7 @@ function handleJoinTeamButtonClick() {
 	var fbImg = document.createElement("img");
 	var gFormImg = document.createElement("img");
 
-
+	outerDiv.setAttribute("onfoucsout","handleCancelButtonClick(joinTeamPopup)");
 	outerDiv.setAttribute("id","joinTeamPopup");
 	outerDiv.setAttribute("class","popupMessage mdl-shadow--2dp");
 	call.setAttribute("href","tel: +919871790011");
@@ -58,6 +59,12 @@ function handleJoinTeamButtonClick() {
 	cancelButton.appendChild(cancelButtonIcon);
 	outerDiv.appendChild(cancelButton);
 	contentBox.appendChild(outerDiv);
+
+	document.getElementById("joinTeamPopup").focus();
+
+	// focusOutBox = document.getElementById("joinTeamPopup");
+	// focusOutBox.addEventListener("blur", handleCancelButtonClick(outerDiv.id));
+
 }
 
 // Test function to work within same-orgin security policies
