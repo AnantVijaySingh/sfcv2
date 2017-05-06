@@ -2,7 +2,6 @@ var terms
 var contentBox
 var playMatchButton
 var joinTeamButton
-var focusOutBox
 
 window.onload = function() {
 	terms = document.getElementById('terms');
@@ -60,10 +59,15 @@ function handleJoinTeamButtonClick() {
 	outerDiv.appendChild(cancelButton);
 	contentBox.appendChild(outerDiv);
 
+	// ----------------- Mamu Review -------------------------------
+	// Code to bring the div in focus
+	// event to listen to div going out of focus
+	// trigger event handleCancelButtonClick which takes div id and deletes it
+
 	document.getElementById("joinTeamPopup").focus();
 
-	// focusOutBox = document.getElementById("joinTeamPopup");
-	// focusOutBox.addEventListener("blur", handleCancelButtonClick(outerDiv.id));
+	var focusOutBox = document.getElementById("joinTeamPopup");
+	focusOutBox.addEventListener("focusout", handleCancelButtonClick(outerDiv.id));
 
 }
 
