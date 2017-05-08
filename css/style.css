@@ -106,3 +106,12 @@
 	height: 48px;
 	width: 48px;
 }
+
+.player-card.mdl-card {
+  width: 300px;
+  height: 450px;
+}
+
+.player-card .mdl-card__actions {
+	text-align: center;
+}

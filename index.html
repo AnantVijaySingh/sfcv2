@@ -11,7 +11,7 @@
   <script type="text/javascript" src="javascript/material.js" ></script>
   <script type="text/javascript" src="javascript/sfc.js" ></script>
 </head>
-<body>
+<body id="body">
     <!-- Always shows a header, even in smaller screens. -->
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header" id="headerBar">
@@ -32,6 +32,25 @@
     </div>
     <main class="mdl-layout__content">
       <div class="page-content" id="contentBox"><!-- Your content goes here -->
+<!-- Underline nav links      
+ .site-nav ._nav-item a {
+    display: inline-block;
+    padding: 20px 12px 21px;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    transition: border-bottom-color .1s ease-out;
+    transition-property: border-bottom-color;
+    transition-duration: 0.1s;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;} -->
         <div id="navigationBar">
           <div class="mdl-grid mdl-grid--no-spacing mdl-layout--large-screen-only" style="text-align: center" >
             <div class="mdl-cell mdl-cell--3-col navigationButton"><a href="index.html"><div>HOME</div></a></div>
