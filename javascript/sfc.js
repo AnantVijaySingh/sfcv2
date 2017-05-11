@@ -9,10 +9,18 @@ window.onload = function() {
 	playMatchButton = document.getElementById('playMatch');
 	joinTeamButton = document.getElementById('joinTeam');
 
+	// -----------------create trigger to only load when team page isloaded-------------------
+	playerJSONparser();
+
 	terms.onclick = handleTermsClick;
 	joinTeamButton.onclick = handleJoinTeamButtonClick;
+
 }
 
+function playerJSONparser() {
+	var jsonString = JSON.parse(players);
+	console.log(jsonString);
+}
 
 function handleJoinTeamButtonClick() {
 

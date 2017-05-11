@@ -1,0 +1,52 @@
+{
+    "firstName": "Anant Vijay",
+    "lastName": "Singh",
+    "age": 25,
+    "position": "Midfielder",
+    "positionInitial": "M",
+    "imageURL": "xyz.png",
+    "facebook": "www.facebook.com/AnantVijaySingh19",
+    "stats": {
+        "goals": 5,
+        "assists": 12,
+        "saves": 2,
+        "cleanSheets": 17,
+        "appearences": 129,
+        "trophies": 1,
+        "MOTM": 2,
+    }
+    // "address": {
+    //     "streetAddress": "21 2nd Street",
+    //     "city": "New York",
+    //     "state": "NY",
+    //     "postalCode": 10021
+    // },
+    // "phoneNumbers": [
+    //     {
+    //         "type": "home",
+    //         "number": "212 555-1234"
+    //     },
+    //     {
+    //         "type": "fax",
+    //         "number": "646 555-4567"
+    //     }
+    // ]
+}
+{
+    "firstName": "Jatin",
+    "lastName": "Chopra",
+    "age": 25,
+    "position": "Midfielder",
+    "positionInitial": "M",
+    "imageURL": "xyz.png",
+    "facebook": "www.facebook.com/jatinchopra03",
+    "stats": {
+        "goals": 21,
+        "assists": 20,
+        "saves": 0,
+        "cleanSheets": 3,
+        "appearences": 170,
+        "trophies": 3,
+        "MOTM": 3,
+    }
+}

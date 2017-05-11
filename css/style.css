@@ -64,6 +64,8 @@
 	text-align: justify;
 }
 
+
+
 .contactInfo {
 	text-align: center;
 }
@@ -107,9 +109,44 @@
 	width: 48px;
 }
 
+/*------------------------------------------------------------------*/
+/* ------------------ Player Cards for Team Page -------------------*/
+
+#teamMainContent p {
+	text-align: justify;	
+}
+
+#teamMainContent {
+	display: flex;
+	overflow-x: auto;
+}
+
 .player-card.mdl-card {
-  width: 300px;
+  min-width: 300px;
+  max-width: 300px;
   height: 450px;
+  margin-right: 7px;
+  border-color: rgba(0,0,0,0.1);
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+.player-card .mdl-card__title {
+	/*background: url(../images/club/anantvijay.jpg);*/
+	background-image: url(../images/club/anantvijay.jpg);
+	background-size: 298px 327px;
+/*background-size: contain;*/
+
+}
+
+.player-card .mdl-card__title-text {
+	color: white;
+	font-weight: bold;
+}
+
+.player-card.mdl-card:hover {
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12); 
 }
 
 .player-card .mdl-card__actions {
