@@ -68,11 +68,6 @@ function handleJoinTeamButtonClick() {
 
 }
 
-function focusMethod(elementId) {
-	console.log(elementId);
-	document.getElementById(elementId).focus();
-};
-
 // Test function to work within same-orgin security policies
 // add focus property
 function handleTermsClick() {
