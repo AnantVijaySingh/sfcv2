@@ -8,7 +8,7 @@ window.onload = function () {
 
 //-------------------Update PlayerJSON url when publishing -------------------
 function parsePlayerJSON() {
-	var url = "https://github.com/AnantVijaySingh/sfcv2/blob/master/content/players.json";
+	var url = "../content/players.json";
 	var request = new XMLHttpRequest();
 	request.open("GET", url);
 	request.onload = function () {
