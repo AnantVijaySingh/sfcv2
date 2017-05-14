@@ -10,7 +10,7 @@ window.onload = function () {
 function parsePlayerJSON() {
 	var url1 = "https://anantvijaysingh.github.io/sfcv2/content/players.json";
 	var request = new XMLHttpRequest();
-	request.open("GET", url);
+	request.open("GET", url1);
 	request.onload = function () {
 		if (request.status == 200) {
 			console.log(request.responseText);
