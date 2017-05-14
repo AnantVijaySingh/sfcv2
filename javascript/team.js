@@ -16,7 +16,7 @@ function parsePlayerJSON() {
 			console.log(request.responseText);
 		}
 	};
-	request.sedn(null);
+	request.send(null);
 }
 
 
