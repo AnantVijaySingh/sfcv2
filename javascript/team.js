@@ -2,8 +2,8 @@ var teamMainContent;
 
 window.onload = function () {
 	contentDiv = document.getElementById('teamMainContent');
-	parsePlayerJSON();
 	createPlayerCard();
+	parsePlayerJSON();
 }
 
 //-------------------Update PlayerJSON url when publishing -------------------
@@ -11,12 +11,23 @@ function parsePlayerJSON() {
 	var url = "https://github.com/AnantVijaySingh/sfcv2/blob/master/content/players.json";
 	var request = new XMLHttpRequest();
 	request.open("GET", url);
-	request.onload = function() {
+	request.onload = function () {
 		if (request.status == 200) {
 			console.log(request.responseText);
 		}
 	};
 	request.send(null);
+
+
+	var playerData = new XMLHttpRequest();
+    playerData.open("GET", url);
+    playerData.onload = function () {
+        if(playerData.status == 200)
+        {
+        	console.log(playerData.responseText);
+        }
+    }
+    playerData.send(null);
 }
 
 
