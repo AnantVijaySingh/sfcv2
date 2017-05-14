@@ -1,18 +1,36 @@
 [{
-    "firstName": "Anant Vijay",
-    "lastName": "Singh",
-    "age": 25,
-    "position": "Midfielder",
-    "positionInitial": "M",
-    "imageURL": "xyz.png",
-    "facebook": "www.facebook.com/AnantVijaySingh19",
-    "stats": {
-        "goals": 5,
-        "assists": 12,
-        "saves": 2,
-        "cleanSheets": 17,
-        "appearences": 129,
-        "trophies": 1,
-        "MOTM": 2,
-    }
-}]
+        "firstName": "Anant Vijay",
+        "lastName": "Singh",
+        "age": 25,
+        "position": "Midfielder",
+        "positionInitial": "M",
+        "imageURL": "../images/club/anantvijay.jpeg",
+        "facebook": "www.facebook.com/AnantVijaySingh19",
+        "stats": {
+            "goals": 5,
+            "assists": 12,
+            "saves": 2,
+            "cleanSheets": 17,
+            "appearences": 129,
+            "trophies": 1,
+            "MOTM": 2,
+        }
+    },
+    {
+        "firstName": "Suvansh",
+        "lastName": "Chibber",
+        "age": 25,
+        "position": "Midfielder",
+        "positionInitial": "M",
+        "imageURL": "../images/club/suvansh.jpeg",
+        "facebook": "www.facebook.com/AnantVijaySingh19",
+        "stats": {
+            "goals":34,
+            "assists": 67,
+            "saves": 0,
+            "cleanSheets": 3,
+            "appearences": 150,
+            "trophies": 3,
+            "MOTM": 4,
+        }
+    }]
