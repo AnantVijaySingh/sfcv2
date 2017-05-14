@@ -8,7 +8,7 @@ window.onload = function () {
 
 //-------------------Update PlayerJSON url when publishing -------------------
 function parsePlayerJSON() {
-	var url = "../content/players.json";
+	var url1 = "https://anantvijaysingh.github.io/sfcv2/content/players.json";
 	var request = new XMLHttpRequest();
 	request.open("GET", url);
 	request.onload = function () {
@@ -18,7 +18,7 @@ function parsePlayerJSON() {
 	};
 	request.send(null);
 
-
+	var url = "../content/players.json";
 	var playerData = new XMLHttpRequest();
     playerData.open("GET", url);
     playerData.onload = function () {
