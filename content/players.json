@@ -1,18 +1,2 @@
-[{
-        "firstName": "Anant Vijay",
-        "lastName": "Singh",
-        "age": 25,
-        "position": "Midfielder",
-        "positionInitial": "M",
-        "imageURL": "../images/club/anantvijay.jpeg",
-        "facebook": "www.facebook.com/AnantVijaySingh19",
-        "stats": {
-            "goals": 5,
-            "assists": 12,
-            "saves": 2,
-            "cleanSheets": 17,
-            "appearences": 129,
-            "trophies": 1,
-            "MOTM": 2,
-        }
-    }]
+[{"name":"Anant","position:midfielder"},
+{"name":"Suvansh","position:midfielder"}]
