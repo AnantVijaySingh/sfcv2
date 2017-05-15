@@ -2,7 +2,6 @@ var teamMainContent;
 
 window.onload = function () {
 	contentDiv = document.getElementById('teamMainContent');
-	createPlayerCard();
 	parsePlayerJSON();
 }
 
