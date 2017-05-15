@@ -15,7 +15,7 @@ function parsePlayerJSON() {
 	request.onload = function () {
 		if (request.status == 200) {
 			console.log(request.responseText);
-			players = JSON.parse(responseText);
+			players = JSON.parse(request.responseText);
 
 			for (var i = 0; i < players.length; i++) {
 				createPlayerCard(players[i]);
