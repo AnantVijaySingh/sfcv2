@@ -16,8 +16,6 @@ function parsePlayerJSON() {
 			console.log(request.responseText);
 			players = JSON.parse(request.responseText);
 			console.log(players);
-			players = request.responseText;
-			console.log(players);
 
 			for (var i = 0; i < players.length; i++) {
 				createPlayerCard(players[i]);
