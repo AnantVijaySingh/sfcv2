@@ -38,7 +38,7 @@ function createPlayerCard(playerObject) {
 
 	outerDiv.setAttribute('class','player-card mdl-card');
 	photoDiv.setAttribute('class','mdl-card__title mdl-card--expand');
-	photoDiv.setAttribute('style','background-image: url(../images/club/anantvijay.jpg)');
+	photoDiv.setAttribute('style','background-image: url('+ playerObject.imageURL +')');
 	playerNameH2.setAttribute('class','mdl-card__title-text');
 	discriptionDiv.setAttribute('class','mdl-card__supporting-text');
 	popupButton.setAttribute('class','mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect');
@@ -46,7 +46,7 @@ function createPlayerCard(playerObject) {
 
 	popupButton.innerHTML = 'Read Bio';
 	playerNameH2.innerHTML = playerObject.firstName;
-	discriptionDiv.innerHTML = playerObject.position + ' with ' + playerObject.goals + 'Goals and ' + 
+	discriptionDiv.innerHTML = playerObject.position + ' with ' + playerObject.goals + ' Goals and ' + 
 								playerObject.assists + ' Assists in ' + playerObject.appearences 
 								+ ' appearcnes for the club.';
 
