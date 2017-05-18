@@ -29,7 +29,6 @@ function parsePlayerJSON() {
 function createPlayerCard(playerObject) {
 	console.log(playerObject);
 	console.log(playerObject.firstName);
-	console.log(playerObject[firstName]);
 	var outerDiv = document.createElement('div');
 	var photoDiv = document.createElement('div');
 	var discriptionDiv = document.createElement('div');
