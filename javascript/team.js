@@ -2,15 +2,17 @@ var teamMainContent;
 
 window.onload = function () {
 	contentDiv = document.getElementById('teamMainContent');
-	console.log(window.screen.availHeight);
-	console.log(window.screen.availWidth);
-	console.log(window.screen.height);
-	console.log(window.screen.width);
-	parsePlayerJSON();
+
+	if (window.screen.width >= 960) {
+			parsePlayerJSONDesktop(); // For desktop create player cards with photos
+	} else {
+		parsePlayerJSONMobile(); // For mobile and tablets create a tab list with player names
+	}
+
 }
 
 //-------------------Update PlayerJSON url when publishing -------------------
-function parsePlayerJSON() {
+function parsePlayerJSONDesktop() {
 	var players;
 	var url1 = "https://anantvijaysingh.github.io/sfcv2/content/players.json";
 	var request = new XMLHttpRequest();
