@@ -12,4 +12,17 @@
     "trophies": 1,
     "MOTM": 2
 },
-{"name":"Suvansh","position":"midfielder"}]
+{
+    "firstName":"Suvansh",
+    "lastName":"Chibber",
+    "position":"Midfielder",
+    "imageURL": "../images/club/suvansh.jpeg",
+    "facebook": "www.facebook.com/suvansh.chhibber",
+    "goals": 34,
+    "assists": 67,
+    "saves": 0,
+    "cleanSheets": 3,
+    "appearences": 150,
+    "trophies": 3,
+    "MOTM": 4
+}]
