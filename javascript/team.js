@@ -13,9 +13,9 @@ function parsePlayerJSON() {
 	request.open("GET", url1);
 	request.onload = function () {
 		if (request.status == 200) {
-			console.log(request.responseText);
+			console.log(request.responseText); // Remove in prod
 			players = JSON.parse(request.responseText);
-			console.log(players);
+			console.log(players); // Remove in prod
 
 			for (var i = 0; i < players.length; i++) {
 				createPlayerCard(players[i]);
@@ -27,6 +27,9 @@ function parsePlayerJSON() {
 
 
 function createPlayerCard(playerObject) {
+	console.log(playerObject);
+	console.log(playerObject.firstName);
+	console.log(playerObject[firstName]);
 	var outerDiv = document.createElement('div');
 	var photoDiv = document.createElement('div');
 	var discriptionDiv = document.createElement('div');
@@ -44,8 +47,8 @@ function createPlayerCard(playerObject) {
 
 	popupButton.innerHTML = 'Read Bio';
 	playerNameH2.innerHTML = playerObject.firstName;
-	discriptionDiv.innerHTML = playerObject.position + ' with ' + playerObject.stats.goals + 'Goals and ' + 
-								playerObject.stats.assists + ' Assists in ' + playerObject.stats.appearences 
+	discriptionDiv.innerHTML = playerObject.position + ' with ' + playerObject.goals + 'Goals and ' + 
+								playerObject.assists + ' Assists in ' + playerObject.appearences 
 								+ ' appearcnes for the club.';
 
 	buttonDiv.appendChild(popupButton);
