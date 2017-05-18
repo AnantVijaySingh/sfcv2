@@ -38,7 +38,7 @@ function createPlayerCard(playerObject) {
 
 	outerDiv.setAttribute('class','player-card mdl-card');
 	photoDiv.setAttribute('class','mdl-card__title mdl-card--expand');
-	photoDiv.setAttribute('style','background: url('+ playerObject.imageURL +')');
+	photoDiv.setAttribute('style','background: url('+ playerObject.imageURL +'); background-size: 298px 327px');
 	playerNameH2.setAttribute('class','mdl-card__title-text');
 	discriptionDiv.setAttribute('class','mdl-card__supporting-text');
 	popupButton.setAttribute('class','mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect');

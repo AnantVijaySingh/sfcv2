@@ -4,7 +4,7 @@
         "age": 25,
         "position": "Midfielder",
         "positionInitial": "M",
-        "imageURL": "../images/club/anantvijay.jpeg",
+        "imageURL": "images/club/anantvijay.jpeg",
         "facebook": "www.facebook.com/AnantVijaySingh19",
         "stats": {
             "goals": 5,
